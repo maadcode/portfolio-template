@@ -189,13 +189,13 @@ section h2 {
 .social-link.instagram{
     background-image: url('../img/instagram-brands.svg');
 }
-.form-email input{
+/* .form-email input{
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-}
-.form-email button{
+} */
+/* .form-email .button{
     display: block;
     margin-top: 10px;
     background: transparent;
@@ -204,6 +204,14 @@ section h2 {
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
+} */
+.form-email .event-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
 }
 .container{
     width: 1100px;
