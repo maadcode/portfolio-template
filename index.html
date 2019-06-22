@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Manuel Dávila</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--HEADER-->
     <header class="header">
-        <div>
+        <div class="container">
             <figure class="logo">
-                <img src="./img/logo.png" alt="">
+                <a href=""><img src="./img/logo.png" alt=""></a>
             </figure>
             <nav class="menu">
-                <ul>
+                <ol>
                     <li>
                         <a class="link" href="#portfolio">Portfolio</a>
                     </li>
@@ -29,54 +30,140 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
-                </ul>
-            </nav>
+                </ol>
+            </nav>   
         </div>
+        
     </header>
     <!--PORTADA-->
     <section class="hero">
-        <h1>Hey! I'm <strong>Manuel Davila</strong>, Software Developer.</h1>
-        <p>I like <strong>learning and create projects</strong></p>
-        <img src="./img/mad-portada.jpeg" alt="">
+        <div class="container">
+            <h1>Hey! I'm <strong>Manuel Davila</strong><br>Software Developer.
+            <br>I like <strong>learning</strong> and <strong> create projects</strong></h1>
+            <img class="hero-image" src="./img/mad-portada.jpeg" alt="">
+        </div>
     </section>
     <!--PORTAFOLIO-->
     <section id="portfolio" class="projects">
-        <h2>Portfolio</h2>
-        <article class="project">
-            <h3 class="project-title">PlatziVideo</h3>
-            <h6 class="project-skill">React Native / React.Js</h6>
-            <p class="project-date"><small><strong>fecha:01/01/2000</strong></small></p>
-            <p class="project-url"><small><strong>Puedes verlo en: </strong> URL</small></p>
-            <p class="project-description"><small><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus exercitationem repellendus ex quam nam laudantium provident ut architecto ducimus dolore fuga, autem odit deleniti saepe tempora aut dolores sed!</strong></small></p>
-        </article>
-        <figure class="project-containerImage">
-            <img class="project-image" src="./img/project.jpeg" alt="" width="500">
-        </figure>
+        <div class="container">
+            <h2>Portfolio</h2>
+            <article class="project">
+                <div class="project-container">
+                    <h3 class="project-title">PlatziVideo</h3>
+                    <h6 class="project-skill">React Native / React.Js</h6>
+                    <p class="project-date"><small><strong>fecha:01/01/2000</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> URL</small></p>
+                    <p class="project-description"><small><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus exercitationem repellendus ex quam nam laudantium provident ut architecto ducimus dolore fuga, autem odit deleniti saepe tempora aut dolores sed!</strong></small></p>
+                </div>            
+                <figure class="project-containerImage">
+                    <img class="project-image" src="./img/project.jpeg" alt="" width="500">
+                </figure>
+            </article>
+
+            <article class="project">
+                <div class="project-container">
+                    <h3 class="project-title">PlatziVideo</h3>
+                    <h6 class="project-skill">React Native / React.Js</h6>
+                    <p class="project-date"><small><strong>fecha:01/01/2000</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> URL</small></p>
+                    <p class="project-description"><small><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus exercitationem repellendus ex quam nam laudantium provident ut architecto ducimus dolore fuga, autem odit deleniti saepe tempora aut dolores sed!</strong></small></p>
+                </div>            
+                <figure class="project-containerImage">
+                    <img class="project-image" src="./img/project.jpeg" alt="" width="500">
+                </figure>
+            </article> 
+
+            <article class="project">
+                <div class="project-container">
+                    <h3 class="project-title">PlatziVideo</h3>
+                    <h6 class="project-skill">React Native / React.Js</h6>
+                    <p class="project-date"><small><strong>fecha:01/01/2000</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> URL</small></p>
+                    <p class="project-description"><small><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus exercitationem repellendus ex quam nam laudantium provident ut architecto ducimus dolore fuga, autem odit deleniti saepe tempora aut dolores sed!</strong></small></p>
+                </div>            
+                <figure class="project-containerImage">
+                    <img class="project-image" src="./img/project.jpeg" alt="" width="500">
+                </figure>
+            </article> 
+        </div>
     </section>
     <!--EVENTOS-->
     <section id="experience">
-        <h2>Mas sobre mi experiencia</h2>
-        <article class="event">
-            <figure class="event-containerImage">
-                <img class="event-image" src="./img/team.jpeg" alt="">
-            </figure>
-            <h3 class="event-title">PlatziConf</h3>
-            <p class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptatum obcaecati expedita accusamus nesciunt, ab explicabo reiciendis officiis, est id incidunt! Iure autem qui molestias rem ab deserunt reprehenderit commodi?</p>
-            <a class="event-url" href="">Ver</a>
-        </article>
+        <div class="container">
+            <h2>Mas sobre mi experiencia</h2>
+            <div class="event-list">
+                <article class="event">
+                    <figure class="event-containerImage">
+                        <img class="event-image" src="./img/team.jpeg" alt="">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">PlatziConf</h3>
+                        <p class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptatum obcaecati expedita accusamus nesciunt, ab explicabo reiciendis officiis, est id incidunt! Iure autem qui molestias rem ab deserunt reprehenderit commodi?</p>
+                        <a class="event-url" href="" target="_blank">Ver</a>  
+                    </div>
+                </article>
+
+                <article class="event">
+                    <figure class="event-containerImage">
+                        <img class="event-image" src="./img/team.jpeg" alt="">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">PlatziConf</h3>
+                        <p class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptatum obcaecati expedita accusamus nesciunt, ab explicabo reiciendis officiis, est id incidunt! Iure autem qui molestias rem ab deserunt reprehenderit commodi?</p>
+                        <a class="event-url" href="" target="_blank">Ver</a>  
+                    </div>
+                </article>
+
+                <article class="event">
+                    <figure class="event-containerImage">
+                        <img class="event-image" src="./img/team.jpeg" alt="">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">PlatziConf</h3>
+                        <p class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptatum obcaecati expedita accusamus nesciunt, ab explicabo reiciendis officiis, est id incidunt! Iure autem qui molestias rem ab deserunt reprehenderit commodi?</p>
+                        <a class="event-url" href="" target="_blank">Ver</a>  
+                    </div>
+                </article>
+
+                <article class="event">
+                    <figure class="event-containerImage">
+                        <img class="event-image" src="./img/team.jpeg" alt="">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">PlatziConf</h3>
+                        <p class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptatum obcaecati expedita accusamus nesciunt, ab explicabo reiciendis officiis, est id incidunt! Iure autem qui molestias rem ab deserunt reprehenderit commodi?</p>
+                        <a class="event-url" href="" target="_blank">Ver</a>  
+                    </div>
+                </article>
+            </div>   
+        </div>
     </section>
     <!--CONTACTO-->
     <section id="contact" class="contact-container">
-        <form action="/suscription" class="form-email">
-            <h3>Deseas contactarme?</h3>
-            <input type="email" name="" id="" placeholder="Email">
-            <input type="text" name="" id="" placeholder="Message">
-            <button type="submit">Send</button>
-        </form>
+        <div class="container">
+            <form action="/suscription" class="form-email">
+                <h3>Deseas contactarme?</h3>
+                <input type="email" name="" id="" placeholder="Email">
+                <button type="submit">Send</button>
+            </form>
+            <div class="social">            
+                <a href="" class="social-link twitter"></a>
+                <a href="" class="social-link facebook"></a>
+                <a href="" class="social-link github"></a>
+                <a href="" class="social-link instagram"></a>
+            </div>   
+        </div>
     </section>
     <!--FOOTER-->
     <footer>
-
+        <div class="container">
+            <div>
+                <p>Portafolio de Manuel Davila</p>
+            </div>
+            <div>
+                <p>Designer with love for <a href="">me</a></p>
+            </div>  
+        </div>
     </footer>
 </body>
 </html>
