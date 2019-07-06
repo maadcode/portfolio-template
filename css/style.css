@@ -93,3 +93,30 @@ h3 {
 #about .container-about-text {
     width: 42%;
 }
+
+/* SECTION SKILLS */
+
+.container-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#skills .item {
+    width: 28%;
+    text-align: center;
+}
+
+#skills ul li {
+    list-style: none;
+}
+
+#skills ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+}
+
+#skills ul li:nth-child(3) {
+    line-height: 30px;
+}
