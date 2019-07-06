@@ -240,3 +240,11 @@ footer img:hover {
 footer p {
     margin-top: 40px;
 }
+
+/* WHATSAPP BOTON */
+
+#whatsapp {
+    position: fixed;
+    top: 80%;
+    right: 1%;
+}
