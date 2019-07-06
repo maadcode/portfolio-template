@@ -210,3 +210,33 @@ span {
     margin-right: 10px;
 }
 
+/* FOOTER */
+
+footer {
+    background: #2f2f2f;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 0px;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+footer p {
+    margin-top: 40px;
+}
