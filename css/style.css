@@ -248,3 +248,21 @@ footer p {
     top: 80%;
     right: 1%;
 }
+
+/* ANIMATION */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#about, #skills, #projects, #comunity, #contact {
+    padding: 90px 0;
+}
+
+#comunity {
+    padding: 70px 0;
+}
+
+.menu-icon {
+    display: none;
+}
