@@ -76,3 +76,20 @@ p.logo {
 nav ul li a {
     color: #fff;
 }
+
+/* SECTION ABOUT */
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#about .container-about {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .container-about-text {
+    width: 42%;
+}
