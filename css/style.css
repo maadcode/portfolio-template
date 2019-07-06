@@ -58,7 +58,7 @@ h2 {
     text-align: center;
 }
 
-.container-title a, #about a, #blog a, #what-wait a, #contact input[type="submit"] {
+.container-title a, #about a, #contact a {
     font-size: 14px;
     color: #fff;
     background: #5cb8ff;
@@ -183,5 +183,30 @@ span {
     float: right;
 }
 
+/* SECTION CONTACT */
 
+#contact {
+    background: linear-gradient(rgba(84, 93, 220, .94), rgba(96, 171, 245, .9));
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+
+#contact h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.contact-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
