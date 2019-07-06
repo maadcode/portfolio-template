@@ -28,3 +28,51 @@ a {
     width: 90%;
     margin: auto;
 }
+
+header {
+    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../images/mad-portada.jpeg');
+    height: 100vh;
+    background-size: cover;
+}
+
+#container-title-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    max-width: 1580px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.container-title a, #about a, #blog a, #what-wait a, #contact input[type="submit"] {
+    font-size: 14px;
+    color: #fff;
+    background: #5cb8ff;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+p.logo {
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+}
