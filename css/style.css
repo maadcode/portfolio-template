@@ -30,7 +30,7 @@ a {
 }
 
 header {
-    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../images/mad-portada.jpeg');
+    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../images/portada.jpg');
     height: 100vh;
     background-size: cover;
 }
@@ -204,8 +204,7 @@ span {
     color: #fff;
 }
 
-.contact-info img {
-    width: 28px;
+.contact-info i {
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -226,13 +225,13 @@ footer .container {
     flex-direction: column;
 }
 
-footer img {
+footer i {
     margin: 0 40px;
     transform: rotate(0);
     transition: 0.4s;
 }
 
-footer img:hover {
+footer i:hover {
     transform: rotate(360deg);
     transition: 0.4s;
 }
