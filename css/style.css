@@ -30,7 +30,7 @@ a {
 }
 
 header {
-    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../images/portada.jpg');
+    background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('../images/portada.JPG');
     height: 100vh;
     background-size: cover;
 }
